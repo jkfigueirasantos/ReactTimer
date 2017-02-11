@@ -1,0 +1,30 @@
+.nav-component {
+  background-color: $nav-background;
+  .menu {
+    background-color: transparent;
+    .-active {
+      color: $nav-active-link;
+      font-weight: bold;
+      position: relative;
+    }
+    .-active:after {
+      background-color: $nav-active-link;
+      bottom: -8px;
+      content: '';
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+  .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 1.5rem 0 0;
+    color: $nav-text;
+  }
+  .credits {
+    margin: .4rem 0 0 0;
+    color: $nav-text
+  }
+}
