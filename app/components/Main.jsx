@@ -6,7 +6,6 @@ var Main = (props) => {
     <div>
       <div>
         <Nav />
-        <h2 className="page-title">ReactJS Timer</h2>
         <p>Main.jsx rendered</p>
         {props.children}
       </div>
